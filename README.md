@@ -1,5 +1,6 @@
 # 🚀 DevOps & AI Journey 2025
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python)![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
+
 ![Status](https://img.shields.io/badge/Status-Active_Development-green)
 
 **From Embedded Systems to Intelligent Agents.**
@@ -32,7 +33,7 @@ To run this project locally:
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/Arslan0007/devops-journey-2025.git](https://github.com/Arslan0007/devops-journey-2025.git)
+   git clone https://github.com/Arslan0007/devops-journey-2025.git
    cd devops-journey-2025 
    ``` 
 
