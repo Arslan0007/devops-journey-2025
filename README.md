@@ -22,6 +22,15 @@ In an age of information overload, **The Gist** is a "digital declutter" assista
 * **Frontend:** Streamlit
 * **Logic:** NLP / Text Processing (Planned integration with LLMs)
 
+
+## 🛠️ Technical Architecture
+This MVP is built on a lightweight, deployable stack:
+
+* **Streamlit (Frontend):** Chosen for its ability to rapidly turn data scripts into shareable web apps without needing a separate React/Vue frontend.
+* **TextBlob (NLP Engine):** Used for the initial backend logic to handle part-of-speech tagging and sentiment analysis.
+    * *Why TextBlob?* It provides a simple API for common NLP tasks, making it perfect for the MVP phase before integrating heavier LLMs (like OpenAI/Llama).
+* **Python 3.x:** The core logic handles the scoring algorithms for "Urgency" and extracts actionable keywords.
+
 ---
 
 ## 🗺️ The Roadmap
