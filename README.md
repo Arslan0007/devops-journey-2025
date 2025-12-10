@@ -37,12 +37,26 @@ To run this project locally:
    cd devops-journey-2025 
    ``` 
 
-2. **Install dependencies**
+2. **Choose your run method**
+**🐳 Option A: Run with Docker (Recommended)**
+Run the application in an isolated container without installing dependencies locally.
+   1. **Build the Docker Image**
+   ```bash
+   docker build -t the-gist .
+   ```
+   2. **Run the Container**
+   ```bash
+   docker run -p 8501:8501 the-gist
+   ```
+   *Access the app at http://localhost:8501*
+   
+   **🐍 Option B: Run Locally (Python)**
+   Run directly on your machine using your local Python environment.
+   1. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-
-3. **Run the App**
+   2. **Run the App**
    ```bash
    streamlit run main.py
    ```
