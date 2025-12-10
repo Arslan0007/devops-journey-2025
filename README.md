@@ -38,7 +38,8 @@ To run this project locally:
    ``` 
 
 2. **Choose your run method**
-**🐳 Option A: Run with Docker (Recommended)**
+
+   **🐳 Option A: Run with Docker (Recommended)**
 Run the application in an isolated container without installing dependencies locally.
    1. **Build the Docker Image**
    ```bash
