@@ -61,7 +61,7 @@ This MVP is built on a lightweight, deployable stack:
 I am building this repository "in public" to demonstrate competency in the following areas:
 
 - [x] **Python Application Development** (Building "The Gist")
-- [ ] **Containerization:** Dockerizing the application for consistent environments.
+- [x] **Containerization:** Dockerizing the application for consistent environments.
 - [ ] **CI/CD:** Setting up pipelines (GitHub Actions) for automated testing.
 - [ ] **Cloud Deployment:** Hosting the application on a cloud provider (AWS/GCP).
 - [ ] **Infrastructure as Code (IaC):** Managing resources with Terraform/Ansible.
