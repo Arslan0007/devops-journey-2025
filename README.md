@@ -81,7 +81,7 @@ I am building this repository "in public" to demonstrate competency in the follo
 - [x] **Containerization:** Dockerizing the application for consistent environments.
 - [x] **CI/CD:** Setting up pipelines (GitHub Actions) for automated testing.
 - [x] **Cloud Deployment:** Hosting the application on a cloud provider (AWS/GCP).
-- [ ] **Infrastructure as Code (IaC):** Managing resources with Terraform/Ansible.
+- [x] **Infrastructure as Code (IaC):** Defined deployment specs via render.yaml.
 
 ---
 

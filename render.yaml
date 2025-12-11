@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: the-gist-app
+    env: docker
+    plan: free
+    region: frankfurt # or singapore, oregon, etc.
+    buildCommand: docker build -t the-gist .
+    startCommand: docker run -p 8501:8501 the-gist
+    envVars:
+      - key: PORT
+        value: 8501
