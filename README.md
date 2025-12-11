@@ -77,7 +77,7 @@ I am building this repository "in public" to demonstrate competency in the follo
 
 - [x] **Python Application Development** (Building "The Gist")
 - [x] **Containerization:** Dockerizing the application for consistent environments.
-- [ ] **CI/CD:** Setting up pipelines (GitHub Actions) for automated testing.
+- [x] **CI/CD:** Setting up pipelines (GitHub Actions) for automated testing.
 - [ ] **Cloud Deployment:** Hosting the application on a cloud provider (AWS/GCP).
 - [ ] **Infrastructure as Code (IaC):** Managing resources with Terraform/Ansible.
 
