@@ -1,0 +1,23 @@
+name: Build Docker Image
+
+# Trigger this action when you push to the 'main' branch
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    # Use a standard Linux runner (cloud computer) provided by GitHub
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Check out your code from the repo
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    # Step 2: Build the Docker image
+    # If this fails, the whole pipeline turns RED
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag the-gist:$(date +%s)
