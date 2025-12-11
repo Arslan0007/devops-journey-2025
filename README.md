@@ -1,6 +1,8 @@
 # 🚀 DevOps & AI Journey 2025
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python)![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20App-brightgreen?style=for-the-badge&logo=streamlit)](https://devops-journey-2025.onrender.com/)
+
 ![Status](https://img.shields.io/badge/Status-Active_Development-green)
 
 **From Embedded Systems to Intelligent Agents.**
@@ -78,7 +80,7 @@ I am building this repository "in public" to demonstrate competency in the follo
 - [x] **Python Application Development** (Building "The Gist")
 - [x] **Containerization:** Dockerizing the application for consistent environments.
 - [x] **CI/CD:** Setting up pipelines (GitHub Actions) for automated testing.
-- [ ] **Cloud Deployment:** Hosting the application on a cloud provider (AWS/GCP).
+- [x] **Cloud Deployment:** Hosting the application on a cloud provider (AWS/GCP).
 - [ ] **Infrastructure as Code (IaC):** Managing resources with Terraform/Ansible.
 
 ---
